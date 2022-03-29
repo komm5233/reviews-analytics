@@ -17,8 +17,18 @@ print('每筆平均長度是', sum_len/len(data))
 
 
 #篩選概念
-new =[]
+new = []
 for d in data:
 	if len(d) < 100:
 		new.append(d)
 print('一共有', len(new) , '筆留言長度小於100')
+print(new[0])
+
+
+#有GOOD的字篩選出來
+good = []
+for d in data:
+	if 'good' in d:    #'a' in 'abc' -> True
+		good.append(d)
+print('一共有',len(good), '筆留言提到GOOD')
+print(good[0])
