@@ -1,1 +1,4 @@
-"# reviews-analytics" 
+#清單
+#求留言平均長度
+#篩選概念 
+#有GOOD的字篩選出來
